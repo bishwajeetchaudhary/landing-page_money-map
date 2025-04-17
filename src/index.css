@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -94,8 +97,25 @@
   * {
     @apply border-border;
   }
+  
+  html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
 
   body {
     @apply bg-background text-foreground;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-b from-white to-wealth-soft-blue/30;
+  }
+  
+  .purple-gradient {
+    @apply bg-gradient-to-r from-wealth-purple to-wealth-dark-purple;
+  }
+  
+  .card-shadow {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
   }
 }

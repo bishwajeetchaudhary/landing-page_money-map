@@ -1,4 +1,3 @@
-
 interface StepCardProps {
   stepNumber: number;
   title: string;
@@ -12,7 +11,9 @@ const StepCard = ({ stepNumber, title, description }: StepCardProps) => {
         {stepNumber}
       </div>
       <div className="pt-4">
-        <h3 className="text-xl font-semibold text-wealth-deep-blue mb-2">{title}</h3>
+        <h3 className="text-xl font-semibold text-wealth-deep-blue mb-2">
+          {title}
+        </h3>
         <p className="text-wealth-gray">{description}</p>
       </div>
     </div>

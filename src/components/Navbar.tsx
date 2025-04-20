@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
@@ -41,7 +40,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <a href="#" className="font-bold text-2xl text-wealth-deep-blue">
-            <span className="text-wealth-purple">Wealth</span>Canvas
+            <span className="text-wealth-purple">Money</span>Map
           </a>
         </div>
 
@@ -92,10 +91,7 @@ const Navbar = () => {
               </a>
             ))}
             <div className="flex flex-col space-y-3 pt-4 border-t">
-              <a 
-                href="#" 
-                className="text-wealth-purple font-semibold py-2"
-              >
+              <a href="#" className="text-wealth-purple font-semibold py-2">
                 Login
               </a>
               <Button className="bg-wealth-purple hover:bg-wealth-dark-purple w-full">
